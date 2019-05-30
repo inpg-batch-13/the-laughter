@@ -1,5 +1,6 @@
 function haCounter(arr) {
-
+  var jmlHa = arr.split('ha')
+  return (jmlHa.length - 1)
 }
 
 function theLaughter(arr) {
