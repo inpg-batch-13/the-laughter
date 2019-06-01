@@ -10,11 +10,11 @@ return jmlHa.length
 }
 
 function theLaughter(arr) {
-var result = arr.reduce(function (x,y){
+  var result = arr.reduce(function (x,y){
 
-     console.log (haCounter(x[1]) > haCounter(y[1]) ? x[0] : y[0])
-     
-  }
+    console.log (haCounter(x[1]) > haCounter(y[1]) ? x[0] : y[0] )
+    
+ }
 )
 return result
 }
