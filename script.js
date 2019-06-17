@@ -1,17 +1,14 @@
 function haCounter(arr) {
   if (arr){
-var jmlHa = arr.match(/ha/g) ||[]
+var jmlHa = arr.match(/ha/g) || []
 return jmlHa.length
-  }
-  else {
-    return 0
   }
 
 }
 
 function theLaughter(arr) {
 
-  var mostlaugh = haCounter(arr[0][1])
+var mostlaugh = haCounter(arr[0][1])
 var result = arr[0][0]
 
 for (var i = 0; i < arr.length; i++){
@@ -20,7 +17,7 @@ for (var i = 0; i < arr.length; i++){
     mostlaugh = haCounter(arr[i][1])
     result = arr[i][0]
   }
-  
+
 }
 return result
 }
